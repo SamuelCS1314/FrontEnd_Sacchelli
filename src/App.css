@@ -1,0 +1,22 @@
+.sidebar-accordion, .sidebar-accordion[data-bs-theme="dark"] {
+    --bs-accordion-bg: transparent;
+    --bs-accordion-border-width: 0;
+    --bs-accordion-btn-bg: transparent;
+    --bs-accordion-active-bg: transparent;
+    --bs-accordion-active-color: #fff;
+    --bs-accordion-btn-color: #fff;
+    --bs-accordion-btn-focus-box-shadow: none;
+}
+
+.sidebar-accordion .accordion-button,
+.sidebar-accordion .accordion-button:not(.collapsed) {
+    box-shadow: none;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    color: #fff;
+    gap: 0.5rem;    
+}
+
+.sidebar-accordion .accordion-button:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+}
